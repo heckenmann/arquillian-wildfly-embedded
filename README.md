@@ -2,6 +2,6 @@
 
 http://heckenmann.de/arquillian-und-wildfly/
 
-# Branches
+# branches
 - *arquillian-wildfly-embedded:* master
 - *arquillian-wildfly-managed:* arquillian-wildfly-managed
