@@ -29,6 +29,15 @@ Mit dem Befehl kann das Projekt geklont werden:
 ```
 git clone https://github.com/heckenmann/arquillian-wildfly-embedded.git
 ```
+Die Tests starten, wenn man das Projekt baut:
+```
+mvn clean install
+```
+Oder indem man die Tests mit folgendem Befehl startet:
+```
+mvn test
+```
+
 
 **Update:**
 Der Vorteil vom managed-Adapter liegt darin, dass man einen bereits gestarteten Wildfly verwenden kann. Das ist sinnvoll, wenn man in der Entwicklungsumgebung sowieso ständig den Server gestartet hat und dieser verwendet werden soll. Dazu muss man die "pom.xml" anpassen indem man den managed-Adapter einbindet und die Property Variable "allowConnectingToRunningServer" auf true setzt. Wie das funktioniert, sieht man im Beispielprojekt wenn man auf den Branch "arquillian-wildfly-managed" wechselt:
