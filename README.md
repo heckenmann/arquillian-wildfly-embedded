@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/heckenmann/arquillian-wildfly-embedded.svg?branch=master)](https://travis-ci.org/heckenmann/arquillian-wildfly-embedded)
+
 # Arquillian und Wildfly
 Arquillian ist ein Testframework, das es ermöglicht, Tests automatisiert durchzuführen.
 
