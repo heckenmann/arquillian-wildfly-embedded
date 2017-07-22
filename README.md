@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/heckenmann/arquillian-wildfly-embedded.svg?branch=master)](https://travis-ci.org/heckenmann/arquillian-wildfly-embedded)
+[![Quality Gate](https://sonarqube.com/api/badges/gate?key=de.heckenmann:arquillianTest)](https://sonarqube.com/dashboard/index/de.heckenmann:arquillianTest)
+[![Technical debt ratio](https://sonarqube.com/api/badges/measure?key=de.heckenmann:arquillianTest&metric=sqale_debt_ratio)](https://sonarqube.com/dashboard/index/de.heckenmann:arquillianTest)
 
 # Arquillian und Wildfly
 Arquillian ist ein Testframework, das es ermöglicht, Tests automatisiert durchzuführen.
